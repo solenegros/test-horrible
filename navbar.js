@@ -7,17 +7,17 @@ const nav = document.createElement("nav");
 const ul = document.createElement("ul");
 
 const links = [
-    { href: "index.html", text: "Home" },
+    { href: "./index.html", text: "Home" },
     {
         text: "The projects",
         class: "drop-down",
         children: [
-            { text: "Project description", href: "description.html" },
-            { text: "Results", href: "project.html" },
+            { text: "Project description", href: "./description.html" },
+            { text: "Results", href: "./project.html" },
         ],
     },
     // { href: "project-results.html", text: "Project results" },
-    { href: "contact.html", text: "Contact" },
+    { href: "./contact.html", text: "Contact" },
 ];
 
 links.forEach((link) => {
